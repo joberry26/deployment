@@ -5,7 +5,43 @@ header {
     background-color: green;
   }
 
+
+
 body {
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.headerTxt {
+    font-size: bold;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.halobtn {
+
+    background-color: #386150;
+    color: cornsilk;
+}
+
+.halobtn:hover {
+    background-color: #4A442D;
+}
+
+.buttonHolder {
+    display: flex;
+    justify-content:space-evenly;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+#header-img {
+    width: 100%;
+    height: auto
 }
